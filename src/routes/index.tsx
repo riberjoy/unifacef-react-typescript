@@ -1,0 +1,24 @@
+import { observer } from 'mobx-react';
+import * as React from 'react';
+import{ Route, withRouter, Switch, } from 'react-router-dom';
+import MainMenu from '../components/main-menu';
+import { Divider } from 'semantic-ui-react';
+import { endpoints } from './endpoints';
+
+//@ts-ignore
+@withRouter
+@observer
+export default class Routes extends React.Component{
+    render(){
+        return<>
+            <MainMenu/>
+            <Divider hidden={true} />
+            <Switch>
+                {endpoints.map((route, i) => (
+                    <Route key={i} {...route} /> 
+                    )
+                )}
+            </Switch>
+        </>
+    }
+}
