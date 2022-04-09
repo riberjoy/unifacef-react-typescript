@@ -13,13 +13,13 @@ export default class EleicoesStore {
     ['1']: {
       name: 'Naruto',
       party: 'Konoha',
-      image: 'https://cm-santiago-do-cacem.pt/img/fantasy/83/how-watch-naruto-order.jpg',
+      image: 'https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q95/wp-content/uploads/2021/12/legiao_S26MdXFhkjiZ.jpg.jpeg',
       votes: 0
     },
     ['2']: {
       name: 'Goku',
       party: 'Capsule Corp',
-      image: 'https://tm.ibxk.com.br/2020/12/16/16032833123011.jpg',
+      image: 'https://sm.ign.com/t/ign_br/screenshot/default/goku_an6e.h720.jpg',
       votes: 0
     },
     ['3']: {
