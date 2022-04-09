@@ -41,7 +41,7 @@ export default class StarWars extends React.Component<Props> {
             </Grid.Column>
           </Grid.Row>
         </Grid>
-        <Card.Group itemsPerRow={2}>
+        <Card.Group itemsPerRow={3}>
           {films.map((film, index) => {
             return (
               <Card key={index} onClick={ () => openDetails(film.id)}>

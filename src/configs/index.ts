@@ -1,6 +1,6 @@
 export const configs = {
     apis: {
-        cep: process.env.REACT_APP_CEP_URL,
+        correios: process.env.REACT_APP_CEP_URL,
         starWars: process.env.REACT_APP_STAR_WARS_BASE_URL, 
         github: process.env.REACT_APP_GITHUB_URL,
     },
